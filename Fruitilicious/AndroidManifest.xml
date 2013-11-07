@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fruitilicious"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity android:name="com.example.fruitilicious.PreviewScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.fruitilicious.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/CustomTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ParentActivity" />
+        </activity>
+        <activity
+            android:name="com.example.fruitilicious.Apple"
+            android:label="@string/apple"
+            android:theme="@style/CustomTheme" >
+        </activity>
+        <activity
+            android:name="com.example.fruitilicious.Strawberry"
+            android:label="@string/strawberry"
+            android:theme="@style/CustomTheme" >
+        </activity>
+        <activity
+            android:name="com.example.fruitilicious.Avocado"
+            android:label="@string/avocado"
+            android:theme="@style/CustomTheme" >
+        </activity>
+        <activity
+            android:name="com.example.fruitilicious.Banana"
+            android:label="@string/banana"
+            android:theme="@style/CustomTheme" >
+        </activity>
+        <activity
+            android:name="com.example.fruitilicious.Grapes"
+            android:label="@string/grapes"
+            android:theme="@style/CustomTheme" >
+        </activity>
+        <activity
+            android:name="com.example.fruitilicious.Kiwi"
+            android:label="@string/kiwi"
+            android:theme="@style/CustomTheme" >
+        </activity>
+        <activity
+            android:name="com.example.fruitilicious.Orange"
+            android:label="@string/orange"
+            android:theme="@style/CustomTheme" >
+        </activity>
+        <activity
+            android:name="com.example.fruitilicious.Watermelon"
+            android:label="@string/watermelon"
+            android:theme="@style/CustomTheme" >
+        </activity>
+                <activity
+            android:name="com.example.fruitilicious.Feedback"
+            android:label="@string/feedback"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
+        </activity>
+                <activity
+            android:name="com.example.fruitilicious.About"
+            android:label="@string/about"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
+        </activity>
+    </application>
+
+</manifest>

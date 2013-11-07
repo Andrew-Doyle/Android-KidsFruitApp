@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fruitilicious</string>
+    <string name="action_settings">Réglages</string>
+    <string name="hello_world">Bonjour tout le monde!</string>
+    <string name="apple">Pomme</string>
+    <string name="strawberry">Fraise</string>
+    <string name="avocado">Avocat</string>
+    <string name="banana">Banane</string>
+    <string name="grapes">Raisin</string>
+    <string name="kiwi">Kiwi</string>
+    <string name="orange">Orange</string>
+    <string name="send">Envoyer</string>
+    <string name="cancel">Résilier</string>
+    <string name="watermelon">Pasteque</string>
+    <string name="fruit">Une image de fruits</string>
+    <string name="feedback">Réaction</string>
+    <string name="about">Informations</string>
+    <string name="previous">Revenir</string>
+    <string name="feedback_name">S\'il vous plaît entrer votre nom:</string>
+    <string name="feedback_name_hint">S\'il vous plaît entrer votre nom</string>
+    <string name="feedback_email">S\'il vous plaît, entrez votre adresse e-mail:</string>
+    <string name="feedback_email_hint">S\'il vous plaît, entrez votre adresse e-mail</string>
+    <string name="feedback_actual">S\'il vous plaît entrer votre avis</string>
+    <string name="about_this_app">Devoir 2 description</string>
+    <string name="feedback_heading">Formulaire de commentaires</string>
+    <string name="feedback_instructions">Nous apprécions vos commentaires. Entrez votre nom et votre adresse email pour être entré dans notre tirage au sort le 28 Janvier 2014, s\'il a Samsung 32 pouces TV LED! Nous ne transmettons pas vos informations à des tiers.</string>
+    <string name="feedback_actual_hint">S\'il vous plaît entrer votre avis</string>
+    <string name="feedback_actual">S\'il vous plaît entrer votre avis</string>
+    <string name="appdescription">"Cette application se lance avec un écran d'accueil qui est paramétré pour afficher pendant quelques secondes avant de passer à l'activité principale (fruitview). L'utilisateur peut naviguer via le ActionBar. La bibliothèque Actionbarsherlock a été utilisé pour activer cette fonction pour partir Android 2.x (Le projet Actionbarsherlock est inclus dans la présentation car elle doit être référencée par le projet d'application).\n\nSpan image et cordes Spannable ont été utilisés pour coiffer les noms de fruits sur la page s de chaque fruit. 9 images de correction ont été utilisés pour assurer des images redimensionnées sans distorsion. \n\nVeuillez noter que cette application est pour des buts éducatifs seulement - et il n `est pas vraiment une télévision à gagner."	</string>
+   
+
+</resources>
